@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Sensitive
+gridstatus_api_key.txt
+
+# Large source data (not needed to run the app)
+attachment-a-*.xlsx
+attachment-b*.xlsx
+lmp_cache/
+combined_output.geojson
+substations.geojson
+
+# OS
+.DS_Store
+Thumbs.db
